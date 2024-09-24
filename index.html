@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Founders, Inc.</title>
+    
+    <!-- Favicon Link -->
+    <link rel="icon" href="Science_Founders_Logo.png" type="image/png">
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff; /* Ensuring text is readable over the background */
+        }
+
+        body {
+            background-image: url('biotech_2560x1600.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+            padding-bottom: 80px; /* Adds extra space at the bottom to prevent footer overlap */
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(68, 68, 68, 0.8);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(85, 85, 85, 0.8);
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .intro, .founders, .contact {
+            max-width: 800px; /* Consistent width for all sections */
+            margin: 20px auto; /* Centers the sections */
+            background-color: rgba(204, 204, 204, 0.8); /* Background color for readability */
+            color: #000; /* Text color for readability */
+            padding: 10px;
+            border-radius: 5px;
+            text-align: left; /* Align text to the left for a professional look */
+        }
+
+        .contact {
+            margin-bottom: 60px; /* Adds a margin to create space above the footer */
+        }
+
+        .board {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            background-color: rgba(51, 51, 51, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: left;
+            color: #fff; /* White font color for founder text */
+        }
+
+        .board img {
+            width: 100px; /* Placeholder width for image */
+            height: 100px; /* Placeholder height for image */
+            margin-right: 20px;
+            border-radius: 50%; /* Optional: Makes the image circular */
+            object-fit: cover; /* Ensures the image fills the container */
+        }
+
+        footer {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Media Query for Responsive Design */
+        @media (max-width: 768px) {
+            .founder {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .founder img {
+                margin-bottom: 10px;
+                margin-right: 0;
+            }
+
+            .intro, .founders, .contact {
+                padding: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#founders" aria-label="Team Section">Board</a></li>
+            <li><a href="http://sciencefounders.slack.com" aria-label="Slack Channel" target="_blank">Slack</a></li>            
+            <li><a href="https://sciencefounders.notion.site/0a7699594d324561b63772143ed21511?v=8f26dc455d5e49c5819a330ec5c56a1c" target="_blank" aria-label="Science Founders Notion Wiki">Wiki</a></li>
+            <li><a href="#contact" aria-label="Contact Info">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="intro" class="intro">
+            <h2>About Science Founders</h2>
+            <p>Science Founders is a non-profit community creating a collaborative space for founders, scientists, and advisors. The Science Founders Slack & Wiki serve as a central repository for founder guides, links to funding opportunities & capital sources, curated lists of commonly needed services, tools, and documents for starting up a science-based venture.</p>
+            <p>Science Founders was started to provide a founder resource and peer-mentor support community freely accessible and open to founders abiding by principles of the community. Rules for joining the community: wiki's <a href="https://sciencefounders.notion.site/Principles-39b30b95738a4ada9d82cf25066e2458" aria-label="princples" target="_blank">principles</a> page.</p> 
+        </section>
+
+        <section class="founders" id="board">
+            <h2>Founding Directors and Governance Board</h2>
+            <p>The Board is composed of members of the Science Founders volunteer community who meet quarterly providing governance oversight as a 501(c)(3) registered non-profit organization.</p>
+            <div class="board">
+                <a href="https://www.linkedin.com/in/evan-d-taylor/" target="_blank"><img src="evan_headshot.jpg" alt="Evan Taylor Photo" /></a>
+                <div>
+                    <h3>President: Evan Taylor</h3>
+                    <p>Evan Taylor has been a serial climate <a href="https://evantaylor.pro/projects" target="_blank">founder</a> and scientist focused on environmental biotechnology and decarbonization.  He's been a Co-Investigator on over $15,000,000 of U.S. Department of Energy awards across 9+ <a href="https://www.sbir.gov/portfolio/114916" target="_blank">SBIRs</a>, and multiple EERE or BETO awards in collaboration with multiple national labs as a Visting Scholar at the <a href="https://azcati.asu.edu" target="_blank">Arizona Center for Algae Technology & Innovation</a>.  He serves on the <a href="https://itc.ucdavis.edu/ace-program/" target="_blank">U.C. Davis Venture Catalyst Climate Advisory Group Board</a> and mentors startups through <a href="https://www.climatehaven.tech" target="_blank">Climate Haven</a> and the <a href="https://theeforum.org" target="_blank">EForum</a>.</p>
+                    <p>He holds a BS in Sustainability and an MS in Environmental from Arizona State University.</p>
+                </div>
+            </div>
+            
+            <div class="board">
+                <a href="https://www.linkedin.com/in/mariela-alfonzo/" target="_blank"><img src="mariela_headshot.jpg" alt="Dr. Mariela Alfonzo Photo" /></a>
+                <div>
+                    <h3>Director: Dr. Mariela Alfonzo</h3>
+                    <p>Mariela Alfonzo is a scientist and climate <a href="https://www.stateofplace.co" target="_blank">founder</a> focusing on quantifying social, health, environmental, and economic value of urban design and sustainability. She's won prestigious <a href="https://fulbrightscholars.org/grantee/mariela-alfonzo" target="_blank">scholarships</a>, numerous grant <a href="https://www.volpe.dot.gov/work-us/small-business-innovation-research/sbir-fiscal-year-20242-awards-complete-streets" target="_blank>">awards</a> and been recognized as one of Urban Land Institute's <a href="https://knowledge.uli.org/en/people/a/m/mariela-alfonzo-4f82#sort=%40cz95xdate%20descending" target="_blank">40 under 40</a>, and is a Research Assistant Professor at <a href="https://engineering.nyu.edu/faculty/mariela-alfonzo" target="_blank">NYU</a>.</p>
+                    <p>She holds BAs in Psychology and Architecture from the University of Miami and PhD Urban Planning and Design from University of California Irvine.</p>
+                </div>
+            </div>
+
+            <div class="board">
+                <a href="https://www.linkedin.com/in/jonathan-levine-phd/" target="_blank"><img src="jonathan_headshot.jpeg" alt="Jonathan Levine Photo" /></a>
+                <div>
+                    <h3>Director: Dr. Jonathan Levine</h3>
+                    <p>Jonathan Levine is a climate scientist and cleantech <a href="https://www.foliamaterials.com" target="_blank">founder</a> with experience in advanced materials, water, and carbon capture and storage.  He has been a judge and mentor at various cleantech accelerators or awards including <a href="http://www.mitwaterinnovation.org" target="_blank">MIT's Water, Food, & Ag Prize</a>, <a href="https://nexusglobal.org" target="_blank">Nexus Global</a>, and <a href="https://www.cleantechopen.org" target="_blank">CleanTech Open</a> among others.</p>
+                    <p>He holds a BS in History in Mathematics, MS & PhD in Earth & Environmental Engineering from Columbia University.</p>
+                </div>
+            </div>
+
+            <div class="board">
+                <a href="https://www.linkedin.com/in/jimmyyjia/" target="_blank"><img src="jimmy_headshot.jpeg" alt="Jimmy Jia Photo" /></a>
+                <div>
+                    <h3>Director: Jimmy Jia</h3>
+                    <p>Jimmy Jia has been an energy founder turned climate investor and corporate strategist. Currently, he is a Venture Partner Advisor at <a href="https://www.pilabs.co.uk/" target="_blank">PiLabs</a>, sits on the board for the <a href="http://www.energycenter.org/" target="_blank">Center for Sustainable Energy</a> and is a Visiting Scholar at <a href="https://eem.engineering.gwu.edu" target="_blank">George Washington University</a>. He acts as the Treasurer and Secretary of Science Founders.</p>
+                    <p>He holds BS and MS degrees in Materials Science from the Massachusetts Institute of Technology, an MBA and D. Phil in Sustainable Finance (Est. 2024) from the University of Oxford.</p>
+                </div>
+            </div>     
+
+            <div class="board">
+                <a href="https://www.linkedin.com/in/philip-risser/" target="_blank"><img src="phil_headshot.png" alt="Phillip Risser Photo" /></a>
+                <div>
+                    <h3>Director: Philip Risser</h3>
+                    <p>Phillip Risser has been a serial climate entrepreneur and <a href="https://ambireenergy.com" target="_blank">founder</a> with Founder or Director-level experience in industrial scale-up of bioreactor technology, waste upcycling, and algae biofertilizer production.  Phil has been a subawardee on multiple U.S. Department of Energy SBIR and Research Grants developing opensource <a href="https://gitlab.com/LabProbe/project-ada" target="_blank">tools</a> for bioscience labs.</p>
+                    <p>He holds a BS in Mechanical Engineering from Arizona State University.</p>
+                </div>
+            </div>             
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <p>If you would like to join our Slack channel, you can request an invite by emailing <a href="mailto:invite@sciencefounders.org">invite@sciencefounders.org</a> or by contacting any current member of Science Founders.</p>
+            <p>For any other inquiries, e-mail Evan Taylor at <a href="mailto:evan@sciencefounders.org">evan@sciencefounders.org</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Science Founders, Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
